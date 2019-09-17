@@ -24,8 +24,10 @@ var handler = function() {
 	modalImgElem[index].style.display = 'block'
 	const img = modalImgElem[index]
 	// blocking scroll for mobile
-	function myPrevDef(e){
-		e.preventDefault();
+	if (window.matchMedia("(min-width: 525px)").matches) {
+		function myPrevDef(e){
+			e.preventDefault();
+		}
 	}
 	window.myPrevDef = myPrevDef;
 	if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
