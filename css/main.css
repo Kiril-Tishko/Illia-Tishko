@@ -493,8 +493,8 @@ img {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  height: 38px;
-  width: 35px;
+  height: 36px;
+  width: 36px;
   -webkit-border-radius: 2px;
   border-radius: 2px;
 }
@@ -525,19 +525,6 @@ img {
 }
 
 .social-network__logo:hover .viber__phone {
-  fill: #ad7835;
-}
-
-/*whatsapp*/
-.whatsapp-icon__phone {
-  fill: #1d1d1d;
-}
-
-.social-network__logo:hover .whatsapp-icon__background {
-  fill: #1d1d1d;
-}
-
-.social-network__logo:hover .whatsapp-icon__phone {
   fill: #ad7835;
 }
 

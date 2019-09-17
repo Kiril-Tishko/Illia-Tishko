@@ -155,7 +155,7 @@ const phone = document.getElementById('phone')
 
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
 	viber.removeAttribute('href')
-	viber.setAttribute('href', 'viber://add?number=380667662042')
+	viber.setAttribute('href', 'viber://add?number=+380667662042')
 	phone.setAttribute('href', 'tel:+380667662042')
 	phone.setAttribute('title', 'Позвонить сейчас')
 	// modal mobile btn
